@@ -11,7 +11,6 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 | Jukebox(2020)  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | |
 | RAVE(2021)  | 48kHz@2  | Secs | Latent  | Single-genre Music | Strings | = Audio len. | 100 | |
 | AudioLM(2022)  Google | 16kHz@1  | Mins |  text prompt  |  Piano or speech | Piano | Mins | 40k | |
-
 | Musika(2022)  | 22.5kHz@1  | Secs | context vector   | Single-genre Music | Piano | = Audio len. | 1k | |
 | Riffusion(2022)  | 44.1kHz@1  | 5s |  Text (genre, author, etc.)  | Music of any genre  | Jazzy clarinet | Mins | - | |
 | MusicLM(2023)  Google | 24kHz@2  | up to 5-Mins |  text prompt or image  |  Music | Music | - | 5.5k MusicCaps | Transformer-based multi-stage autoregressive modeling |
