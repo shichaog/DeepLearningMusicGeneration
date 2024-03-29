@@ -5,7 +5,7 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 
 
 
-| model    | Sample Rate@channel    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
+| model    | Sample Rate    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | WaveNet(2016)  | 16kHz@1  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 | 
 | Jukebox(2020)  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | 
