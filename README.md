@@ -4,7 +4,7 @@ State of the Art of Music Generation with Deep Learning and AI
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
 
 
-"`markdown
+
 | model    | Sample Rate@channel    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
 |——|——|—–|——|——|—–|——|——|
 | WaveNet(2016)  | 16kHz@1  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 | 
@@ -15,7 +15,6 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 | Riffusion(2022)  | 44.1kHz@1  | 5s |  Text (genre, author, etc.)  | Music of any genre  | Jazzy clarinet | Mins | - | 
 | AudioGen(2022)  | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | 
 | Moûsai(2023)  | 48kHz@1  | Mins |  Text (genre, author, etc.) | Music of any genre lyrics | African drums | = Audio len. | 2.5k | 
-"`
 
 ## 2024 
 ### March 
