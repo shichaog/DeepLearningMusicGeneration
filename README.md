@@ -2,7 +2,11 @@
 State of the Art of Music Generation with Deep Learning and AI
 
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
-
+复制
+| 标题1 | 标题2 |
+| ----- | ----- |
+| 内容1 | 内容2 |
+| 内容3 | 内容4 |
 
 
 | model    | Sample Rate@channel    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
