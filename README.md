@@ -2,15 +2,11 @@
 State of the Art of Music Generation with Deep Learning and AI
 
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
-复制
-| 标题1 | 标题2 |
-| ----- | ----- |
-| 内容1 | 内容2 |
-| 内容3 | 内容4 |
+
 
 
 | model    | Sample Rate@channel    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
-|——|——|—–|——|——|—–|——|——|
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | WaveNet(2016)  | 16kHz@1  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 | 
 | Jukebox(2020)  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | 
 | RAVE(2021)  | 48kHz@2  | Secs | Latent  | Single-genre Music | Strings | = Audio len. | 100 | 
