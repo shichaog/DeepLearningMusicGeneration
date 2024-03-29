@@ -3,6 +3,19 @@ State of the Art of Music Generation with Deep Learning and AI
 
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
 
+“`markdown
+| model    | Sample Rate@channel    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  |
+|——|——|—–|——|——|—–|——|——|
+| WaveNet(2016)  | 16kHz@1  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 | 
+| Jukebox(2020)  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | 
+| RAVE(2021)  | 48kHz@2  | Secs | Latent  | Single-genre Music | Strings | = Audio len. | 100 | 
+| AudioLM(2022)  | 16kHz@1  | Mins |  Beginning of the music  |  Piano or speech | Piano | Mins | 40k | 
+| Musika(2022)  | 22.5kHz@1  | Secs | context vector   | Single-genre Music | Piano | = Audio len. | 1k | 
+| Riffusion(2022)  | 44.1kHz@1  | 5s |  Text (genre, author, etc.)  | Music of any genre  | Jazzy clarinet | Mins | - | 
+| AudioGen(2022)  | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | 
+| Moûsai(2023)  | 48kHz@1  | Mins |  Text (genre, author, etc.) | Music of any genre lyrics | African drums | = Audio len. | 2.5k | 
+“`
+
 ## 2024 
 ### March 
 Suno AI V3 released, v4 is already under development,
