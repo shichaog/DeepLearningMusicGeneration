@@ -9,6 +9,13 @@ State of the Art of Music Generation with Deep Learning and AI
 4. Interactive Performance: Using music generation models in live performances to interact with the audience and create a unique performance experience.
 5. Music Analysis and Reconstruction: Utilizing models to analyze the style of musical works and reconstruct or generate new pieces based on that analysis.
 
+Chinese of above
+1. 个性化音乐创作：音乐生成模型可能会越来越擅长根据用户的情绪和喜好创作个性化的音乐。
+2. 音乐伴随应用：随着游戏、电影、广告等行业的需求，音乐生成模型可以为这些媒介提供实时、自动化的配乐。
+3. 音乐教育和辅助作曲：音乐生成技术可以帮助音乐家和作曲家提出新的音乐想法，或者用于音乐教育来展示作曲技巧。
+4. 交互式表演：在现场表演中使用音乐生成模型，实现与观众的互动，创造独一无二的表演体验。
+5. 音乐分析和重构：利用模型分析音乐作品的风格，并基于分析重构或生成新的作品。
+
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
 
 
