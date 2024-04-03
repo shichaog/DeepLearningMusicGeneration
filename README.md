@@ -1,6 +1,14 @@
 # DeepLearningMusicGeneration
 State of the Art of Music Generation with Deep Learning and AI
 
+# why need AIGC music
+
+1. Personalized Music Composition: Music generation models may become increasingly adept at creating personalized music based on a user’s emotions and preferences.
+2. Music Accompaniment Applications: With the demand from industries such as gaming, film, and advertising, music generation models can provide real-time, automated background scores for these media.
+3. Music Education and Compositional Aid: Music generation technology can help musicians and composers come up with new musical ideas, or be used in music education to demonstrate compositional techniques.
+4. Interactive Performance: Using music generation models in live performances to interact with the audience and create a unique performance experience.
+5. Music Analysis and Reconstruction: Utilizing models to analyze the style of musical works and reconstruct or generate new pieces based on that analysis.
+
 The AI generation of text, video, and images has surged since 2023, but the advent of audio generation has been somewhat delayed. This repository tracks the latest advancements in audio generation technology. Both of closed or open sourced achievements will be included!
 
 
