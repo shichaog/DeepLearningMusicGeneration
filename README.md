@@ -1,5 +1,5 @@
 # DeepLearningMusicGeneration
-State of the Art of Music Generation with Deep Learning and AI
+State of the Art of Music Generation with Deep Learning and AI， mainly focus on text to music generation.
 
 # why need AIGC music
 
@@ -28,9 +28,19 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 | AudioLM(2022)  Google | 16kHz@1  | Mins |  text prompt  |  Piano or speech | Piano | Mins | 40k | |
 | Musika(2022)  | 22.5kHz@1  | Secs | context vector   | Single-genre Music | Piano | = Audio len. | 1k | |
 | Riffusion(2022)  | 44.1kHz@1  | 5s |  Text (genre, author, etc.)  | Music of any genre  | Jazzy clarinet | Mins | - | |
-| MusicLM(2023)  Google | 24kHz@2  | up to 5-Mins |  text prompt or image  |  Music | Music | - | 5.5k MusicCaps | Transformer-based multi-stage autoregressive modeling |
-| AudioGen(2023) Meta | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | |
+| **MusicLM(2023)** Google | 24kHz@2  | up to 5-Mins |  text prompt or image  |  Music | Music | - | 5.5k MusicCaps | Transformer-based multi-stage autoregressive modeling |
+| **AudioGen(2023)** Meta | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | |
 | Moûsai(2023)  | 48kHz@1  | Mins |  Text (genre, author, etc.) | Music of any genre lyrics | African drums | = Audio len. | 2.5k | |
+| JEN-1(2023.8)  | 48kHz@2  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 |  autoencoder and autoregressive and non-autoregressive diffusion |
+
+# 模型技术路线图思考
+基于Transformer的大语言模型（Autoregressive模型）生成方法先是用Embedding的方式将词/符号转为Token，然后通过Attention结构Decoder获取上下文和长上下文的关联，而基于Diffusion模型（Non-autoregressive模型）的图像生成方法是一次可以生成一幅图，而不是一个一个像素生存，这两种结构上的差异在于Transformer是Token by Token生成的，效率上并不够高，而Diffusion是整张图生成的，如何将二者结合起来，获得**高效、高质量**的模型就至关重要了。
+
+从OpenAI的Sora模型可以看到，未来音频（音乐、人声）生成采用类似的结构也许会取得突破性进展，类似于OpenAI的visual patches，会由audio pathes的结构（这种结构是音频的表示单元，类似语言模型中的词，在时间长度并不是等长的），通过类似图中的videencoder将视频转到latent space，audioEncoder也是将其转到latent space patches（并非是RVQ，而是人类建模物理信号层面上目前是不可解释的，但可以采用RVQ代替），然后这些将Spacetime latent patches作为大语言模型中的Token，但是将大语言模型中的Transformer换成diffusion transformer，
+
+![image](https://github.com/shichaog/DeepLearningMusicGeneration/assets/7869827/beb24861-3171-485e-b3a4-42f82c30d4c7)
+
+
 
 
 ## 2024 
