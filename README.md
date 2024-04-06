@@ -73,6 +73,14 @@ more deatils see : https://ai.meta.com/resources/models-and-libraries/audiocraft
 SOUNDRAW's AI
 * similar to Suno， also text prompt. https://soundraw.io/
 
+JEN-1
+Can works for Generation, painting and Continuation.
+
+![image](https://github.com/shichaog/DeepLearningMusicGeneration/assets/7869827/d3707238-34de-42d5-b496-71eb3eb14350)
+
+entails the amalgamation of both the auto-regressive(from LLM) and non-autoregressive modes(from image generation, stable diffusion) into a cohesive omnidirectional diffusion model.
+
+
 ### January
 
 AudioLM https://arxiv.org/pdf/2209.03143.pdf 
