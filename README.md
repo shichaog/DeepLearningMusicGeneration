@@ -31,7 +31,7 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 | **MusicLM(2023)** Google | 24kHz@2  | up to 5-Mins |  text prompt or image  |  Music | Music | - | 5.5k MusicCaps | Transformer-based multi-stage autoregressive modeling |
 | **AudioGen(2023)** Meta | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | |
 | Moûsai(2023)  | 48kHz@1  | Mins |  Text (genre, author, etc.) | Music of any genre lyrics | African drums | = Audio len. | 2.5k | |
-| JEN-1(2023.8)  | 48kHz@2  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 |  autoencoder and autoregressive and non-autoregressive diffusion |
+| JEN-1(2023.8)  | 48kHz@2  | Secs | text prompt   | Music | Music | - | private 5k hours |  autoencoder and autoregressive and non-autoregressive diffusion + transformer |
 
 # 模型技术路线图思考
 基于Transformer的大语言模型（Autoregressive模型）生成方法先是用Embedding的方式将词/符号转为Token，然后通过Attention结构Decoder获取上下文和长上下文的关联，而基于Diffusion模型（Non-autoregressive模型）的图像生成方法是一次可以生成一幅图，而不是一个一个像素生存，这两种结构上的差异在于Transformer是Token by Token生成的，效率上并不够高，而Diffusion是整张图生成的，如何将二者结合起来，获得**高效、高质量**的模型就至关重要了。
