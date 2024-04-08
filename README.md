@@ -23,13 +23,13 @@ The AI generation of text, video, and images has surged since 2023, but the adve
 | model    | Sample Rate    |  Len  | Input   |  Music  |  Example  |  Infer. Time  |  Data  | Model Arch|
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | WaveNet(2016)  | 16kHz@1  | Secs | None  | Piano or speech | Piano | = Audio len. | 260 | |
-| Jukebox(2020)  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | |
+| **Jukebox(2020)** OpenAI  | 44.1kHz@1  | Mins |  Lyrics, author, etc.  | Song with the lyrics | Song | Hours | 70k | |
 | RAVE(2021)  | 48kHz@2  | Secs | Latent  | Single-genre Music | Strings | = Audio len. | 100 | |
 | AudioLM(2022)  Google | 16kHz@1  | Mins |  text prompt  |  Piano or speech | Piano | Mins | 40k | |
 | Musika(2022)  | 22.5kHz@1  | Secs | context vector   | Single-genre Music | Piano | = Audio len. | 1k | |
 | Riffusion(2022)  | 44.1kHz@1  | 5s |  Text (genre, author, etc.)  | Music of any genre  | Jazzy clarinet | Mins | - | |
 | **MusicLM(2023)** Google | 24kHz@2  | up to 5-Mins |  text prompt or image  |  Music | Music | - | 5.5k MusicCaps | Transformer-based multi-stage autoregressive modeling |
-| **AudioGen(2023)** Meta | 16kHz@1  | Secs | Text (a phrase/sentence)   | Daily sounds | Dog barks | Hours | 4k | |
+| **MusicGen(2023)** Meta | 32kHz@2  | Minus | Text (a phrase/sentence)   | music | music | depends on model size | 20k licensed music | |
 | Moûsai(2023)  | 48kHz@1  | Mins |  Text (genre, author, etc.) | Music of any genre lyrics | African drums | = Audio len. | 2.5k | |
 | JEN-1(2023.8)  | 48kHz@2  | Mins | text prompt   | piano instruments | piano | - | private 5k hours |  autoencoder and autoregressive and non-autoregressive diffusion + transformer |
 | JEN-1 Composer(2023.11)  | 48kHz@4  | Mins | text prompt   | music | music | - | - |  autoencoder and autoregressive and non-autoregressive diffusion + transformer |
